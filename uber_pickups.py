@@ -16,6 +16,7 @@ def load_data(nrows):
 # ----------------------------------------------------------------
 
 st.title('Uber pickups in NYC')
+st.subheader("From the Streamlit Community How-tos : https://docs.streamlit.io/get-started/tutorials/create-an-app")
 
 DATE_COLUMN = 'date/time'
 DATA_URL = ('https://s3-us-west-2.amazonaws.com/'
